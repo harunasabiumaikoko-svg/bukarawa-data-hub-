@@ -1,1 +1,72 @@
-# bukarawa-data-hub-
+# bu<!doctype html>
+<html lang="ha">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087f83">
+<title>Bukarawa Data Hub</title>
+<style>
+:root{--teal:#087f83;--deep:#075f63;--orange:#f79424;--bg:#f6f8f8;--ink:#202433;--muted:#778187}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink)}
+header{background:linear-gradient(145deg,var(--teal),var(--deep));color:white;padding:22px 18px 28px;border-radius:0 0 28px 28px;box-shadow:0 8px 24px #075f6324}
+.top{display:flex;align-items:center;gap:12px;max-width:980px;margin:auto}.logo{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#ffffff20;border:2px solid #ffffff50;font-weight:900;font-size:17px}.brand{flex:1}.brand h1{font-size:19px;margin:0}.brand p{margin:4px 0 0;color:#d5f1f0;font-size:13px}.pill{background:#ffffff20;padding:9px 12px;border-radius:14px;font-size:12px}
+.wrap{max-width:980px;margin:-12px auto 100px;padding:0 16px}.balance{background:linear-gradient(135deg,#0b8588,#075e62);color:white;padding:22px;border-radius:23px;box-shadow:0 8px 20px #003f4326}.label{font-size:14px;color:#d8eeee}.amount{font-size:34px;font-weight:850;letter-spacing:.2px;margin:6px 0 18px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}.btn{border:0;border-radius:13px;padding:13px 10px;font-weight:750;font-size:14px;cursor:pointer}.orange{background:var(--orange);color:white}.white{background:white;color:var(--teal)}.divider{display:flex;align-items:center;gap:10px;color:#c7e4e3;font-size:12px;margin:18px 0 12px}.divider:before,.divider:after{content:"";height:1px;background:#ffffff50;flex:1}.shortcuts{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center}.shortcut{font-size:12px;font-weight:700}.bubble{margin:0 auto 7px;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#ffffff25;font-size:22px}
+.section-title{font-size:19px;font-weight:850;margin:25px 4px 13px;display:flex;align-items:center;gap:9px}.account-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;overflow:hidden}.account{background:var(--teal);color:white;border-radius:18px;padding:15px;min-width:0}.account h3{font-size:14px;margin:0 0 12px}.account small{color:#cde9e8}.number{font-size:24px;letter-spacing:1.5px;font-weight:800;margin-top:5px}.status{float:right;background:#20a96b;border-radius:20px;padding:4px 9px;font-size:10px}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:22px 10px;background:white;border:1px solid #e8ecec;padding:20px 12px;border-radius:22px}.service{text-align:center;cursor:pointer;border:0;background:transparent;color:inherit;font:inherit}.icon{width:68px;height:68px;margin:auto auto 9px;border-radius:20px;background:#eee8fa;display:grid;place-items:center;font-size:29px;color:#5d3bb0}.service:nth-child(2) .icon{background:#ffebeb;color:#df4141}.service:nth-child(3) .icon{background:#e8e6fa;color:#5d3bb0}.service:nth-child(4) .icon{background:#f5e7f7;color:#8b2fa1}.service:nth-child(5) .icon{background:#edf0f7;color:#344a9a}.service:nth-child(6) .icon{background:#e6f4ff;color:#1685c4}.service:nth-child(7) .icon{background:#e5f8fa;color:#0796bd}.service:nth-child(8) .icon{background:#dff5f2;color:#087f83}.service b{font-size:13px}.tag{display:inline-block;background:var(--teal);color:white;padding:3px 7px;border-radius:12px;font-size:9px;margin-bottom:7px}.recent{background:white;border:1px solid #e9eeee;border-radius:18px;padding:18px;color:var(--muted);font-size:14px}.bottom{position:fixed;bottom:0;left:0;right:0;background:#ffffffef;backdrop-filter:blur(12px);border-top:1px solid #e5e9e9;display:grid;grid-template-columns:repeat(4,1fr);padding:10px 6px 8px;z-index:4}.bottom a{text-align:center;text-decoration:none;color:#858b8d;font-size:11px;font-weight:650}.bottom span{display:block;font-size:22px;margin-bottom:3px}.bottom a:first-child{color:var(--teal)}.note{font-size:12px;line-height:1.5;color:#6d7779;margin:18px 4px}.modal{display:none;position:fixed;inset:0;background:#0007;z-index:9;align-items:flex-end}.modal.show{display:flex}.sheet{background:white;width:100%;border-radius:24px 24px 0 0;padding:24px 20px 30px;max-height:88vh;overflow:auto}.sheet h2{margin:0 0 16px;color:var(--teal)}.sheet label{display:block;font-size:13px;margin:12px 0 6px}.sheet input,.sheet select{width:100%;padding:13px;border:1px solid #d8e0e0;border-radius:11px;font-size:15px;background:white}.sheet .btn{width:100%;margin-top:15px}.close{float:right;border:0;background:#edf3f3;border-radius:50%;width:32px;height:32px;font-size:18px}
+@media(min-width:700px){.wrap{padding:0 24px}.balance{padding:28px}.services{gap:26px}.icon{width:78px;height:78px}.brand h1{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <div class="logo">BDH</div>
+    <div class="brand"><h1>Bukarawa Data Hub</h1><p>Data • Airtime • Bills — cikin sauki</p></div>
+    <div class="pill">● Online</div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="balance">
+    <div class="label">Available Balance</div>
+    <div class="amount">₦0.00 <span style="font-size:20px">◉</span></div>
+    <div class="actions">
+      <button class="btn orange" onclick="openModal('Fund Wallet')">▣ &nbsp; Fund Wallet</button>
+      <button class="btn orange" onclick="openModal('Invite Friends')">↗ &nbsp; Invite Friends</button>
+    </div>
+    <div class="divider">Secure • instant funding</div>
+    <div class="shortcuts">
+      <div class="shortcut"><div class="bubble">♙</div>Debtors</div>
+      <div class="shortcut"><div class="bubble">▣</div>Profit</div>
+      <div class="shortcut"><div class="bubble">♟</div>Beneficiaries</div>
+      <div class="shortcut"><div class="bubble">🏆</div>Top Users</div>
+    </div>
+  </section>
+  <h2 class="section-title">▤ &nbsp; Bank Accounts</h2>
+  <div class="account-row">
+    <div class="account"><span class="status">Demo</span><h3>▣ &nbsp; Wallet Account</h3><small>Account Number</small><div class="number">XXXXXXXXXX</div><small>Fund your wallet securely</small></div>
+    <div class="account"><h3>▣ &nbsp; Payment Account</h3><small>Bank transfer</small><div class="number" style="font-size:18px">Coming soon</div><small>Payment integration needed</small></div>
+  </div>
+  <h2 class="section-title">▦ &nbsp; Quick Services</h2>
+  <section class="services">
+    <button class="service" onclick="openService('Data')"><div class="tag">HOT</div><div class="icon">◉</div><b>Data</b></button>
+    <button class="service" onclick="openService('Airtime')"><div class="tag">FAST</div><div class="icon">▯</div><b>Airtime</b></button>
+    <button class="service" onclick="openService('Bulk Data')"><div class="tag">SAVE</div><div class="icon">⌁＋</div><b>Bulk Data</b></button>
+    <button class="service" onclick="openService('Cable TV')"><div style="height:24px"></div><div class="icon">▱</div><b>Cable TV</b></button>
+    <button class="service" onclick="openService('Electricity')"><div style="height:24px"></div><div class="icon">ϟ</div><b>Electric</b></button>
+    <button class="service" onclick="openService('Bulk SMS')"><div style="height:24px"></div><div class="icon">✉</div><b>Bulk SMS</b></button>
+    <button class="service" onclick="openService('Upgrade')"><div style="height:24px"></div><div class="icon">⬆</div><b>Upgrade</b></button>
+    <button class="service" onclick="openService('Bonus')"><div class="tag">NEW</div><div class="icon">♔</div><b>Bonus</b></button>
+  </section>
+  <h2 class="section-title">◴ &nbsp; Recent Transactions <span style="font-size:13px;color:var(--teal);margin-left:auto">View All ›</span></h2>
+  <div class="recent">Babu wani transaction tukuna. Bayan an haɗa backend da payment/API, tarihin ciniki zai bayyana a nan.</div>
+  <p class="note">Wannan demo ne na zane (frontend). Ba ya karɓar kuɗi ko sayar da data a yanzu. Ana buƙatar backend mai tsaro, VTU API, payment gateway, da admin dashboard kafin a fara amfani da shi da kuɗin gaske.</p>
+</main>
+<nav class="bottom">
+  <a href="#"><span>◆</span>Home</a><a href="#transactions"><span>▥</span>Summary</a><a href="#transactions"><span>▤</span>Payments</a><a href="#" onclick="openModal('Profile');return false"><span>♙</span>Profile</a>
+</nav>
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()"><div class="sheet"><button class="close" onclick="closeModal()">×</button><h2 id="modalTitle">Service</h2><div id="modalBody"></div><button class="btn orange" onclick="alert('Wannan demo ne. Ba a haɗa tsarin saye ko biyan kuɗi ba tukuna.')">Continue</button></div></div>
+<script>
+function openModal(title){document.getElementById('modalTitle').textContent=title;document.getElementById('modalBody').innerHTML='<p style="color:#667">Wannan ɓangaren demo ne. Za a haɗa shi da tsarin aiki lokacin backend da payment gateway sun shirya.</p>';document.getElementById('modal').classList.add('show')}
+function openService(service){document.getElementById('modalTitle').textContent=service;let data=service==='Data'||service==='Bulk Data';let airtime=service==='Airtime';let body='<label>Network</label><select><option>Zaɓi network</option><option>MTN</option><option>Airtel</option><option>Glo</option><option>9mobile</option></select><label>Lambar waya</label><input inputmode="tel" placeholder="08012345678">';if(data)body+='<label>Data plan</label><select><option>Zaɓi data plan</option><option>500MB</option><option>1GB</option><option>2GB</option><option>5GB</option></select>';if(airtime)body+='<label>Adadin kuɗi (₦)</label><input inputmode="decimal" placeholder="100">';document.getElementById('modalBody').innerHTML=body;document.getElementById('modal').classList.add('show')}
+function closeModal(){document.getElementById('modal').classList.remove('show')}
+</script>
+</body>
+</html>karawa-data-hub-
